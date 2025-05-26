@@ -16,7 +16,6 @@ public:
     function = function_;
     file = file_;
     line = line_;
-    //message = er + prob + func + prob + fi;
     //cout << "\nError: " << error << "Function: " << function << "File: " << file <<"Line:"<< line << "\n";
   }
 };

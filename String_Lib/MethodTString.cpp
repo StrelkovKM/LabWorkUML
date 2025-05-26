@@ -227,7 +227,7 @@ char& TString::operator[](int p)
 
 ostream& operator<<(ostream& output, TString& line)
 {
-  output << line.str << "\n";
+  output << line.str;
   return output;
 }
 
@@ -235,7 +235,6 @@ ostream& operator<<(ostream& output, TString& line)
 istream& operator>>(istream& input, TString& line)
 {
   char buf[BUFF];
-  cout << "Enter a string: ";
   input >> buf;
   line.SetStr(buf);
 
