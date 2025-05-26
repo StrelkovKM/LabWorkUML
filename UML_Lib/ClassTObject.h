@@ -1,6 +1,9 @@
 #pragma once
+
+#include <fstream>
 #include <cmath>
 #include <iostream>
+
 using namespace std;
 
 #include "ClassTString.h"

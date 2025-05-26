@@ -1,5 +1,4 @@
 #pragma once
-#include "ClassTError.h"
 #include "ClassTPoint.h"
 
 template<class T, int DIM>

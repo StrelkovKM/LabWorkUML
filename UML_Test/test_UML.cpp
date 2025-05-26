@@ -2,6 +2,8 @@
 #include <gtest.h>
 #include "ClassTVector.h"
 
+using namespace std;
+
 TEST(TVector, can_create_vector_with_positive_len)
 {
   ASSERT_NO_THROW(TVector <double> table(3));

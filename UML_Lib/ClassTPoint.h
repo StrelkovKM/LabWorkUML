@@ -1,7 +1,5 @@
 #pragma once
-
 #include "ClassTObject.h"
-#include "ClassTError.h"
 
 
 template<class T, int DIM>
@@ -23,15 +21,15 @@ public:
   T& operator[](int index);
 
   double DistToOrigin();
-  double DistTo(TPoint<T, DIM>& p);
+  double DistTo(TPoint<T, DIM>& obj);
 
   T Characteristic();
 
   template<class I, int DIM>
-  friend istream& operator>>(istream& i, TPoint<I, DIM>& p);
+  friend istream& operator>>(istream& input, TPoint<I, DIM>& obj);
 
   template<class O, int DIM>
-  friend ostream& operator<<(ostream& o, TPoint<O, DIM>& p);
+  friend ostream& operator<<(ostream& output, TPoint<O, DIM>& obj);
 };
 
 template<class T, int DIM>

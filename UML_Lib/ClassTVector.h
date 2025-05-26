@@ -1,11 +1,5 @@
 #pragma once
-
-#include "ClassTError.h"
-#include "ClassTPoint.h"
-#include <iostream>
-#include <fstream>
-#include <string>
-using namespace std;
+#include "ClassTObject.h"
 
 template<class T>
 class TVector : public TObject<T>
