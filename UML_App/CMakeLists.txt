@@ -4,6 +4,7 @@ add_executable(${application} ${srcs} ${hdrs})
 
 target_link_libraries(${application} ${uml_lib})
 target_link_libraries(${application} ${string_lib})
+target_link_libraries(${application} ${error_lib})
 
 
 
