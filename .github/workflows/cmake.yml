@@ -38,4 +38,3 @@ jobs:
           make
           echo make complete
           ./UML_Test/UML_Test
-          ./UML_App/UML_Application
