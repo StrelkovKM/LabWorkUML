@@ -2,7 +2,6 @@
 #include "ClassTPoint.h"
 #include "ClassTVector.h"
 #include "ClassTLine.h"
-#include "CLassTError.h"
 #include "ClassTString.h"
 
 template<class T>

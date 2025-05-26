@@ -1,13 +1,13 @@
 #pragma once
 
+#include "ClassTString.h"
+#include "ClassTError.h"
+
 #include <fstream>
 #include <cmath>
 #include <iostream>
 
 using namespace std;
-
-#include "ClassTString.h"
-#include "ClassTError.h"
 
 
 template <class T>
